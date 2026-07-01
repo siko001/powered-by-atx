@@ -15,7 +15,7 @@
  * Tested up to:      6.4
  */
 
-// If this file is called directly, abort..
+// If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
     die;
 }

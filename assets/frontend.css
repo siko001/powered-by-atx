@@ -1,0 +1,78 @@
+/* Powered by atx - Frontend Styles */
+.powered-by-atx {
+    text-align: center;
+    /* padding: 20px 0; */
+    clear: both;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.powered-by-atx a {
+    display: flex;
+    align-items: baseline;
+    gap:2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #666;
+    transition: all 0.3s ease;
+    border: none;
+    background: transparent;
+}
+
+.powered-by-atx a:hover,
+.powered-by-atx a:focus {
+    opacity: 0.8;
+    transform: translateY(-1px);
+}
+
+.powered-by-atx a:focus {
+    outline: 2px solid #0073aa;
+    outline-offset: 2px;
+}
+
+.powered-by-atx img {
+    display: flex;
+    border: none;
+    box-shadow: none;
+}
+
+.powered-by-atx span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.4;
+    display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    /* .powered-by-atx {
+        padding: 15px 0;
+    } */
+    
+    .powered-by-atx span {
+        font-size: 11px;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .powered-by-atx a {
+        color: #ccc;
+    }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .powered-by-atx a {
+        color: #000;
+        border: 1px solid #000;
+        padding: 2px 4px;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    .powered-by-atx a {
+        transition: none;
+    }
+}
